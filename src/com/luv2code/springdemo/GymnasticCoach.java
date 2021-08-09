@@ -7,4 +7,10 @@ public class GymnasticCoach implements Coach {
 		return "Do a backflip";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
