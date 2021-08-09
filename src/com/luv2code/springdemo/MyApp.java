@@ -7,6 +7,7 @@ public class MyApp {
 		Coach theCoach = new TrackCoach();
 		//use the obj
 		System.out.println(theCoach.getDailyWorkout());
+		//ISSUE APP IS NOT CONFIGURABLE  
 	}
 
 }
