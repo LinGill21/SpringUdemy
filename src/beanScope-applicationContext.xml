@@ -13,6 +13,11 @@
 		<!-- Set up constructor injection -->
 		<constructor-arg ref = "myFortune"/>
 	</bean>
+	<bean id="myGymnasticCoach" 
+	class="com.luv2code.springdemo.GymnasticCoach"
+	>
+		<property name="fortuneService" ref="myFortune"/>
+	</bean>
 	
 	<!-- Define the dependency -->
 	<bean id="myFortune" 

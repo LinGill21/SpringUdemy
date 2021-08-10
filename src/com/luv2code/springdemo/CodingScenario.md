@@ -14,3 +14,8 @@ After that we want to inject thr string team name and the coach's email into the
 2.getFortune return a random fortune.
 3.inject new dependency
 4.test it
+
+## Practice 3
+1. Add bean to your new coach implmentation
+2.test singleton
+3.verify bean scope is being applied
