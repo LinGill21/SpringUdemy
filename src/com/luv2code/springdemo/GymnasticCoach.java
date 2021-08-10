@@ -1,7 +1,12 @@
 package com.luv2code.springdemo;
 
 public class GymnasticCoach implements Coach {
-
+	FortuneService fortuneService;
+	
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+	
 	@Override
 	public String getDailyWorkout() {
 		return "Do a backflip";
@@ -9,8 +14,7 @@ public class GymnasticCoach implements Coach {
 
 	@Override
 	public String getDailyFortune() {
-		// TODO Auto-generated method stub
-		return null;
+		return fortuneService.getFortune();
 	}
 
 }
