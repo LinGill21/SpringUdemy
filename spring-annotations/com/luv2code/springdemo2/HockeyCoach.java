@@ -10,4 +10,10 @@ public class HockeyCoach implements Coach {
 		return "Practice speed skating";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
