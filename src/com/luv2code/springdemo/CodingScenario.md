@@ -7,3 +7,4 @@ Now that app has to be able to easily change the coach to a coach of another spo
 # Dependency Injection
 Now our Coach will also provide daily fortunes
 New helper FortuneService - this is a dependency.
+After that we want to inject thr string team name and the coach's email into the coach object
